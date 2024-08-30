@@ -1,0 +1,225 @@
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header .nav-link {
+    color: #ffffff;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+header .nav-link:hover,
+header .nav-link.active:hover {
+    color: #f0a500;
+}
+
+header .navbar-toggler {
+    border-color: #ffffff;
+}
+
+header .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.home-section {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+.dynamic-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#dynamic-paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.buttons .btn {
+    margin-right: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #e93b24;
+    border: none;
+}
+
+.btn-outline-light {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-outline-light:hover {
+    background-color: #f0a500;
+    color: #ffffff;
+}
+
+#dynamic-heading, #dynamic-paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.slide-up-effect {
+    animation: slideUp 3s ease-out forwards;
+}
+
+.access-section {
+    padding: 50px 0;
+}
+
+.access-section h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #101E3B;
+}
+
+.access-section p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #FF005C;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-danger:hover {
+    background-color: #D8004A;
+}
+
+.subscription-section {
+    padding: 50px 0;
+    background-color: #2C3E50;
+}
+
+.subscription-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.subscription-section .enhanced-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FF005C;
+}
+
+.subscription-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.subscription-section .features-list {
+    background-color: #1D2E52;
+    border-radius: 10px;
+}
+
+.subscription-section .features-heading {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.subscription-section .features-list ul {
+    padding-left: 0;
+}
+
+.subscription-section .features-list ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.subscription-section .features-list ul li i {
+    font-size: 1.2rem;
+}
+
+.btn-danger {
+    background-color: #FF005C;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #D8004A;
+    color: #fff;
+}
+
+.premium-section {
+    padding: 50px 0;
+}
+
+.premium-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.premium-section p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.premium-section .img-fluid {
+    max-width: 150px;
+    height: auto;
+}
+
+.premium-section h5 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+}
+
+.premium-section p {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
